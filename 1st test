@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	int bttm, gao, mianji;
+	bttm = 8;
+	gao = 9;
+	mianji = bttm*gao / 2;
+	printf("三角形的底为%d厘米，高为%d厘米，面积为%d平方厘米。\n", bttm, gao, mianji);
+	getchar();
+}
